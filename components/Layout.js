@@ -5,7 +5,7 @@ const S = {}
 S.Layout = styled.div`
   min-height: 100vh;
   color: ${props => props.theme.colors.secondary};
-  background: url(/background2.jpg);
+  background: url(/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
