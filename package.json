@@ -9,7 +9,8 @@
     "dev": "next dev",
     "lint": "standard --verbose | snazzy",
     "lint-fix": "standard --fix",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
