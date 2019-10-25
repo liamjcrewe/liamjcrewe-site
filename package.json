@@ -10,7 +10,7 @@
     "lint": "standard --verbose | snazzy",
     "lint-fix": "standard --fix",
     "start": "next start",
-    "deploy": "npm build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
+    "deploy": "npm run build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
