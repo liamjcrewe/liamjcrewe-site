@@ -5,13 +5,14 @@ import 'sanitize.css/typography.css'
 import React from 'react'
 import App from 'next/app'
 
+import '../public/global.css'
 import { ThemeProvider } from 'styled-components'
 
 const theme = {
   colors: {
-    primary: '#FFFFFF',
-    secondary: '#000000',
-    tertiary: '#0070F3'
+    primary: '#000000',
+    secondary: '#ffffff',
+    tertiary: '#08c4e6'
   }
 }
 

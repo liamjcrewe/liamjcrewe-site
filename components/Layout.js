@@ -1,19 +1,25 @@
 import styled from 'styled-components'
 
-import Nav from './Nav'
+const S = {}
 
-const StyledLayout = styled.div`
-  height: 100vh;
-  padding: 20px;
-  background-color: ${props => props.theme.colors.primary};
+S.Layout = styled.div`
+  min-height: 100vh;
   color: ${props => props.theme.colors.secondary};
+  background: url(/background2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `
 
-const Layout = props => (
-  <StyledLayout>
-    <Nav />
-    {props.children}
-  </StyledLayout>
+S.Overlay = styled.div`
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+`
+
+const Layout = ({ children }) => (
+  <S.Layout>
+    <S.Overlay>{children}</S.Overlay>
+  </S.Layout>
 )
 
 export default Layout
