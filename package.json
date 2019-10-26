@@ -10,7 +10,7 @@
     "lint": "standard '**/*.js' --verbose | snazzy",
     "lint-fix": "standard '**/*.js' --fix",
     "start": "next start",
-    "test": "echo \"no tests yet\"",
+    "test": "jest",
     "deploy": "npm run lint && npm run test && npm run build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
   },
   "dependencies": {
@@ -23,13 +23,20 @@
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^9.3.0",
     "babel-plugin-styled-components": "^1.10.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "jest-styled-components": "^6.3.3",
     "snazzy": "^8.0.0",
     "standard": "^12.0.1"
   },
   "standard": {
     "ignore": [
       "out/"
+    ],
+    "env": [
+      "jest"
     ]
   }
 }
