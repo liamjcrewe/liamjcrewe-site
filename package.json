@@ -11,7 +11,8 @@
     "lint-fix": "standard '**/*.js' --fix",
     "start": "next start",
     "test": "jest",
-    "deploy": "npm run lint && npm run test && npm run build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
+    "test-coverage": "jest --coverage",
+    "deploy": "npm run lint && npm run test-coverage && npm run build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
