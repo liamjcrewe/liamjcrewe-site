@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentHeaders component renders and matches snapshot 1`] = `
+<head>
+  <title>
+    Liam Crewe | Software Developer
+  </title>
+</head>
+`;
