@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 import 'jest-styled-components'
 
 import theme from '../theme'
-import IndexPage from './index'
+import IndexPage from '../pages/index'
 
 describe('Index page', () => {
   it('renders and matches snapshot', () => {

@@ -13,6 +13,7 @@ module.exports = {
     '**/*.js',
     // ignore jest lib files
     '!**/coverage/**/*.js',
+    '!pages_tests/**/*.js',
     '!jest.config.js',
     // ignore nextjs lib files
     '!out/**/*.js',
