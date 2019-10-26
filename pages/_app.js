@@ -4,17 +4,10 @@ import 'sanitize.css/typography.css'
 
 import React from 'react'
 import App from 'next/app'
-
-import '../public/global.css'
 import { ThemeProvider } from 'styled-components'
 
-const theme = {
-  colors: {
-    primary: '#000000',
-    secondary: '#ffffff',
-    tertiary: '#08c4e6'
-  }
-}
+import theme from '../theme'
+import '../public/global.css'
 
 export default class ThemedApp extends App {
   render () {

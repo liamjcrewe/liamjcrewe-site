@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page renders and matches snapshot 1`] = `
+.c0 {
+  min-height: 100vh;
+  color: #ffffff;
+  background: url(/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c1 {
+  min-height: inherit;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.c6 {
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  color: #08c4e6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c7:hover {
+  color: #ffffff;
+}
+
+.c2 {
+  min-height: 20vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  font-size: 6rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  background-color: #08c4e6;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:hover {
+  background-color: #ffffff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        style="min-height: 40vh;"
+      />
+      <div
+        class="c2"
+      >
+        <div>
+          <h1
+            class="c3"
+          >
+            Liam Crewe
+          </h1>
+          <div
+            class="c4"
+          >
+            <span>
+              <a
+                class="c5"
+                href="mailto:liam.j.crewe@gmail.com"
+              >
+                Contact:
+              </a>
+              <span>
+                 liam.j.crewe@gmail.com
+              </span>
+            </span>
+            <span
+              style="padding-right: 5px;"
+            >
+              Software developer
+            </span>
+          </div>
+        </div>
+      </div>
+       
+      <div
+        style="min-height: 20vh;"
+      />
+      <div
+        class="c6"
+      >
+        <a
+          href="https://github.com/liamjcrewe"
+          target="_blank"
+        >
+          <span
+            class="c7"
+          >
+            <svg
+              fill="currentColor"
+              height="32"
+              size="32"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+       
+    </div>
+  </div>
+</div>
+`;

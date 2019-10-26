@@ -1,6 +1,8 @@
 import { ServerStyleSheet } from 'styled-components'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
+import DocumentHeaders from '../components/document-headers'
+
 export default class StyledDocument extends Document {
   static async getInitialProps (ctx) {
     const sheet = new ServerStyleSheet()
@@ -32,7 +34,7 @@ export default class StyledDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Liam Crewe | Software Developer</title>
+          <DocumentHeaders />
         </Head>
         <body>
           <Main />
