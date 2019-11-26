@@ -12,7 +12,7 @@
     "start": "next start",
     "test": "jest",
     "test-coverage": "jest --coverage",
-    "deploy": "npm run lint && npm run test-coverage && npm run build && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
+    "deploy": "npm run lint && npm run test-coverage && npm run build && cp CNAME out && git add out/ && git commit -m \"Deploy to GitHub pages\" && git push origin master && git subtree push --prefix out git@github.com:liamjcrewe/liamjcrewe.github.io.git master"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
