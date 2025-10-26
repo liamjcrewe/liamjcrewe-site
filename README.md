@@ -1,1 +1,1 @@
-*Archived - rebuilt with NextJS and Vercel - available at https://liamjcrewe.com*
+Archived - rebuilt with NextJS and Vercel - available at https://liamjcrewe.com
